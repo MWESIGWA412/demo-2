@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+    <link rel="stylesheet" href="form.css">
+   
+</head>
+<h1>FORMS</h1>
+<form action="/submit-form" method="post">
+  
+        <div id="divelements">
+            <fieldset>
+        <legend>STUDENT REGISTRATION FORM</legend>
+            <label for="name">Enter Name :</label> &nbsp; 
+            <input type="text" id="nameinput"><br>
+            
+            <label for="facualty">Facualty :</label> &nbsp; 
+            <input type="text" id="nameinput"><br>
+            
+            <label for="course">Course :</label> &nbsp; 
+            <input type="text" id="courseinput"><br>
+
+            <label for="genger">Gender :&nbsp;</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+        
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+        
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Other</label><br>
+        
+            <label for="age">Year : &nbsp;</label>
+            <select name="age" id="agedropdown">
+                <option value="24">2024</option>
+                <option value="25">2025</option>
+                <option value="26">2026</option>
+                <option value="27">2027</option>
+            </select><br>
+            <label for="dateofbirth">D.O.B :</label>&nbsp;
+            <input type="date" id="dob" min="1940-01-01" max="2025-05-08"><br>
+            
+            <label for="text">Comments :</label><br>&nbsp;
+            <textarea name="comment" id="comment" rows="8" cols="50" placeholder="Comment Here....."></textarea><br>
+
+            <button id="summitbtn">Submit</button> &nbsp; <button id="clearformbtn">Clear Form</button>
+    </div>
+        
+    </fieldset>
+</form>
+<body>
+    
+</body>
+</html>

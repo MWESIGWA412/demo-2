@@ -1,0 +1,17 @@
+body{
+    padding: 5px;
+    margin: 5px;
+    justify-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    max-width: 300px;
+  }
+  #divelemnets{
+    margin-bottom: 15px; 
+  }
+ label,input,textarea,select{
+    margin-bottom: 15px; 
+ }
